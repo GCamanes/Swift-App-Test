@@ -15,7 +15,7 @@ struct TileView: View {
                 .frame(width: ScreenHelper.tileSize().width, height: ScreenHelper.tileSize().height, alignment: Alignment.center)
                 .foregroundColor(content.theme.accentColor)
                 .lineLimit(2)
-            .background(content.theme.mainColor)
+                .background(content.theme.mainColor)
             Text(content.name)
                 .foregroundColor(.black)
                 .lineLimit(1)
