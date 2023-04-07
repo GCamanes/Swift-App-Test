@@ -10,23 +10,24 @@ import SwiftUI
 struct ContentsView: View {
     let rails: [[Content]] = Content.getRandomRails(number: 10)
     var body: some View {
-        ScrollView(showsIndicators: false) {
-            LazyVStack(spacing: 30) {
-                ForEach(Array(rails.enumerated()), id: \.element) { index, contents in
-                    RailView(contents: contents)
-                        .padding(.top, index == 0 ? 16 : 0)
-                        .padding(.bottom, index == rails.count - 1 ? 30 : 0)
+        NavigationView {
+            ScrollView(showsIndicators: false) {
+                LazyVStack(spacing: 30) {
+                    ForEach(Array(rails.enumerated()), id: \.element) { index, contents in
+                        RailView(contents: contents)
+                            .padding(.top, index == 0 ? 16 : 0)
+                            .padding(.bottom, index == rails.count - 1 ? 30 : 0)
+                    }
                 }
             }
+            // Allow UI to not reserve space for navigation title
+            .navigationBarTitle("Home", displayMode: .inline)
         }
-        .navigationTitle("Product Home")
     }
 }
 
 struct ContentsView_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationView {
-            ContentsView()
-        }
+        ContentsView()
     }
 }

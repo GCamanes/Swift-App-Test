@@ -11,7 +11,16 @@ struct ContentDetailView: View {
     let content: Content
     
     var body: some View {
-        return Text(content.name)
+        ScrollView {
+            Text("FULL INFORMATION PAGE")
+                .frame(maxWidth: .infinity)
+                .foregroundColor(.white)
+                .lineLimit(2)
+                .padding()
+                .background(.blue)
+        }
+        // Allow UI to not reserve space for navigation title
+        .navigationBarTitle("", displayMode: .inline)
     }
 }
 
