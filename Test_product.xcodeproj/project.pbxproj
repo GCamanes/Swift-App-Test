@@ -29,6 +29,9 @@
 		CBB36F8929DF47C80027AAE6 /* ScreenHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB36F8829DF47C80027AAE6 /* ScreenHelper.swift */; };
 		CBB36F8A29DF47C80027AAE6 /* ScreenHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB36F8829DF47C80027AAE6 /* ScreenHelper.swift */; };
 		CBB36F8B29DF47C80027AAE6 /* ScreenHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB36F8829DF47C80027AAE6 /* ScreenHelper.swift */; };
+		CBB36F8D29E01F3C0027AAE6 /* ContentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB36F8C29E01F3C0027AAE6 /* ContentDetailView.swift */; };
+		CBB36F8E29E01F3C0027AAE6 /* ContentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB36F8C29E01F3C0027AAE6 /* ContentDetailView.swift */; };
+		CBB36F8F29E01F3C0027AAE6 /* ContentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB36F8C29E01F3C0027AAE6 /* ContentDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,7 @@
 		CBB36F8029DF43A40027AAE6 /* RailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RailView.swift; sourceTree = "<group>"; };
 		CBB36F8429DF457C0027AAE6 /* TileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
 		CBB36F8829DF47C80027AAE6 /* ScreenHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenHelper.swift; sourceTree = "<group>"; };
+		CBB36F8C29E01F3C0027AAE6 /* ContentDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,7 @@
 				CBB36F8029DF43A40027AAE6 /* RailView.swift */,
 				CBB36F8429DF457C0027AAE6 /* TileView.swift */,
 				CBB36F8829DF47C80027AAE6 /* ScreenHelper.swift */,
+				CBB36F8C29E01F3C0027AAE6 /* ContentDetailView.swift */,
 			);
 			path = Test_product;
 			sourceTree = "<group>";
@@ -291,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBB36F7929DF400E0027AAE6 /* Theme.swift in Sources */,
+				CBB36F8D29E01F3C0027AAE6 /* ContentDetailView.swift in Sources */,
 				CBB36F5029DF3E420027AAE6 /* ContentsView.swift in Sources */,
 				CBB36F4E29DF3E420027AAE6 /* Test_productApp.swift in Sources */,
 				CBB36F8929DF47C80027AAE6 /* ScreenHelper.swift in Sources */,
@@ -307,6 +313,7 @@
 				CBB36F8229DF43A40027AAE6 /* RailView.swift in Sources */,
 				CBB36F5F29DF3E440027AAE6 /* Test_productTests.swift in Sources */,
 				CBB36F7A29DF400E0027AAE6 /* Theme.swift in Sources */,
+				CBB36F8E29E01F3C0027AAE6 /* ContentDetailView.swift in Sources */,
 				CBB36F7E29DF40530027AAE6 /* Content.swift in Sources */,
 				CBB36F8629DF457C0027AAE6 /* TileView.swift in Sources */,
 				CBB36F8A29DF47C80027AAE6 /* ScreenHelper.swift in Sources */,
@@ -318,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBB36F7B29DF400F0027AAE6 /* Theme.swift in Sources */,
+				CBB36F8F29E01F3C0027AAE6 /* ContentDetailView.swift in Sources */,
 				CBB36F6B29DF3E440027AAE6 /* Test_productUITestsLaunchTests.swift in Sources */,
 				CBB36F6929DF3E440027AAE6 /* Test_productUITests.swift in Sources */,
 				CBB36F8B29DF47C80027AAE6 /* ScreenHelper.swift in Sources */,

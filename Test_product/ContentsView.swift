@@ -14,16 +14,19 @@ struct ContentsView: View {
             LazyVStack(spacing: 30) {
                 ForEach(Array(rails.enumerated()), id: \.element) { index, contents in
                     RailView(contents: contents)
-                        .padding(.top, index == 0 ? 30 : 0)
+                        .padding(.top, index == 0 ? 16 : 0)
                         .padding(.bottom, index == rails.count - 1 ? 30 : 0)
                 }
             }
         }
+        .navigationTitle("Product Home")
     }
 }
 
 struct ContentsView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentsView()
+        NavigationView {
+            ContentsView()
+        }
     }
 }
