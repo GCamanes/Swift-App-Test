@@ -16,6 +16,7 @@ struct TileView: View {
                 .foregroundColor(content.theme.accentColor)
                 .lineLimit(2)
                 .background(content.theme.mainColor)
+                .cornerRadius(8)
             Text(content.name)
                 .foregroundColor(.black)
                 .lineLimit(1)
